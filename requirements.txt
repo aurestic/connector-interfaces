@@ -1,5 +1,5 @@
 # generated from manifests external_dependencies
 chardet
-cryptography<37
+cryptography==2.6.1
 pytz
 pyyaml
