@@ -69,11 +69,6 @@ log(msg)
             }
         )
 
-    def check_attrs(self):
-        # Remove check_attrs cleanup if exists to avoid conflict with FakeModelLoader.
-        # since superClass uses it for its own puposes not relevant for our tests.
-        pass
-
     def setUp(self):
         super().setUp()
         # The components registry will be handled by the
