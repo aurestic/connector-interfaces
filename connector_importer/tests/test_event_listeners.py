@@ -74,11 +74,6 @@ log(msg)
         # since superClass uses it for its own puposes not relevant for our tests.
         pass
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.loader.restore_registry()
-        super().tearDownClass()
-
     def setUp(self):
         super().setUp()
         # The components registry will be handled by the
